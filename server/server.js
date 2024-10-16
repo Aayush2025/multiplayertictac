@@ -1,7 +1,7 @@
 const server = require('http').createServer()
 const io = require('socket.io')(server, {
     cors: {
-        origin: "tictactoe-pink-mu.vercel.app",
+        origin: "https://tictactoe-pink-mu.vercel.app",
         methods: ["GET", "POST"]
     }
 });
