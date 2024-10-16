@@ -22,7 +22,7 @@
 
 <script>
 import io from 'socket.io-client'
-const socket = io(import.meta.env.https://multiplayertictac.onrender.com);
+const socket = io("https://multiplayertictac.onrender.com");
 export default {
   name: 'App',
   components: {
